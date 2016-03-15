@@ -1,0 +1,4 @@
+﻿<module name="IOCTester">
+  <bind service="org.tsu.famc.ds.ioc.IWritter, org.tsu.famc.ds.ioc.Writter"
+        to="org.tsu.famc.ds.ioc.BadWritter, org.tsu.famc.ds.ioc.BadWritter" />
+</module>
